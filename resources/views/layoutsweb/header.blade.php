@@ -169,7 +169,7 @@
                                         <li class="menu-item"><a href="{{url('about')}}">Overview of Panaceu</a></li>
                                         <li class="menu-item"><a href="{{url('news-and-updates')}}">Latest News and Updates</a></li>
                                         <li class="menu-item"><a href="{{url('projects')}}">Featured Projects</a></li>
-                                        <li class="menu-item"><a href="{{url('services')}}">Service</a></li>
+                                        <li class="menu-item"><a href="{{url('documents')}}">Documents</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item menu-item-has-children greennature-normal-menu"><a href="#" class="sf-with-ul-pre"><i class="fa fa-file-text-o"></i>About Us</a>
@@ -179,7 +179,7 @@
                                         <li class="menu-item"><a href="{{url('team')}}">Leadership Team</a></li>
                                         <!-- <li class="menu-item"><a href="{{url('')}}">Sustainability Commitment</a></li> -->
                                         <li class="menu-item"><a href="{{url('careers')}}">Careers</a></li>
-                                         <li class="menu-item menu-item-has-children"><a href="gallery-3-columns-without-caption.html" class="sf-with-ul-pre">Gallery</a>
+                                         <!-- <li class="menu-item menu-item-has-children"><a href="gallery-3-columns-without-caption.html" class="sf-with-ul-pre">Gallery</a> -->
                                             <ul class="sub-menu">
                                                 <li class="menu-item"><a href="gallery-2-columns-without-caption.html">Gallery 2 Columns Without Caption</a></li>
                                                 <li class="menu-item"><a href="gallery-2-columns-with-caption.html">Gallery 2 Columns With Caption</a></li>
@@ -198,47 +198,47 @@
                                         <ul class="sub-menu">
                                             <li class="menu-item menu-item-has-children" data-column="four columns" data-size="1/3"><a href="portfolio-grid-3-columns.html" class="sf-with-ul-pre">Compressed Bio Gas (CBG)</a>
                                                 <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="portfolio-grid-1-column.html">CBG Plant Design & Construction</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-2-columns.html">CBG Plant Consultancy</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-3-columns.html">CBG Utilization and Applications</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-4-columns.html">Waste to Energy Solutions</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-2-columns-no-space.html">Government Policies & Incentives</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-3-columns-no-space.html">Carbon Footprint Reduction</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-4-columns-no-space.html">Case Studies</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">CBG Plant Design & Construction</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">CBG Plant Consultancy</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">CBG Utilization and Applications</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">Waste to Energy Solutions</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">Government Policies & Incentives</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">Carbon Footprint Reduction</a></li>
+                                                    <!-- <li class="menu-item"><a href="{{url('solutions-cbg')}}">Case Studies</a></li> -->
                                                 </ul>
                                             </li>
                                             <li class="menu-item menu-item-has-children" data-column="four columns" data-size="1/3"><a href="portfolio-modern-3-columns-with-filter.html" class="sf-with-ul-pre">Smart Energy Systems</a>
                                                 <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="portfolio-grid-1-columns-with-filter.html">Smart Grid Technology Overview</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-2-columns-with-filter.html">Smart Metering & Data Analytics</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-3-columns-with-filter.html">Building Energy Management Systems (BEMS)</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-4-columns-with-filter.html">Industrial Energy Efficiency Solutions</a></li>
-                                                    <li class="menu-item"><a href="portfolio-modern-3-columns-with-filter.html">Microgrids & Local Energy Systems</a></li>
-                                                    <li class="menu-item"><a href="portfolio-modern-4-columns-with-filter.html">DER Integration & Optimization</a></li>
+                                                    <li class="menu-item"><a href="#">Smart Grid Technology Overview</a></li>
+                                                    <li class="menu-item"><a href="#">Smart Metering & Data Analytics</a></li>
+                                                    <li class="menu-item"><a href="#">Building Energy Management Systems (BEMS)</a></li>
+                                                    <li class="menu-item"><a href="#">Industrial Energy Efficiency Solutions</a></li>
+                                                    <li class="menu-item"><a href="#">Microgrids & Local Energy Systems</a></li>
+                                                    <li class="menu-item"><a href="#">DER Integration & Optimization</a></li>
                                                 </ul>
                                             </li>
                                             
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-normal-menu"><a href="blog-full-with-right-sidebar.html" class="sf-with-ul-pre">Blog</a>
+                                <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-normal-menu"><a href="{{url('blog')}}" class="sf-with-ul-pre">Blog</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="blog-full-with-right-sidebar.html">Blog Full</a></li>
-                                        <li class="menu-item menu-item-has-children menu-item-"><a href="#" class="sf-with-ul-pre">Blog Column</a>
+                                        <!-- <li class="menu-item"><a href="{{url('blog')}}">Blog Full</a></li> -->
+                                        <!-- <li class="menu-item menu-item-has-children menu-item-"><a href="#" class="sf-with-ul-pre">Blog Column</a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item"><a href="blog-1-column.html">Blog 1 Column (Right Sidebar)</a></li>
                                                 <li class="menu-item"><a href="blog-2-columns.html">Blog 2 Columns (Right Sidebar)</a></li>
                                                 <li class="menu-item"><a href="blog-3-columns.html">Blog 3 Columns</a></li>
                                                 <li class="menu-item"><a href="blog-4-columns.html">Blog 4 Columns</a></li>
                                             </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children menu-item-7"><a href="#" class="sf-with-ul-pre">Blog Masonry</a>
+                                        </li> -->
+                                        <!-- <li class="menu-item menu-item-has-children menu-item-7"><a href="#" class="sf-with-ul-pre">Blog Masonry</a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item"><a href="blog-2-columns-masonry.html">Blog 2 Columns &#8211; Masonry (Right Sidebar)</a></li>
                                                 <li class="menu-item"><a href="blog-3-columns-masonry.html">Blog 3 Columns – Masonry</a></li>
                                                 <li class="menu-item"><a href="blog-4-columns-masonry.html">Blog 4 Columns – Masonry</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </li>
                             </ul>

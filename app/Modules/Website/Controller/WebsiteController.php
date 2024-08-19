@@ -47,6 +47,26 @@ class WebsiteController extends Controller {
           return view('website.team',['datas' => $teamMembers]);
       
       }
+      public function documents() {
+        // Define the path to the JSON file
+        $jsonPath = 'data/docs.json';
+
+        // Check if the file exists
+        if (!Storage::exists($jsonPath)) {
+            abort(404, 'Documents data not found.');
+        }
+
+        // Retrieve the file's contents
+        $jsonContent = Storage::get($jsonPath);
+
+        // Decode the JSON data into a PHP array
+        $data = json_decode($jsonContent, true);
+
+        // Pass the data to the 'team' view
+
+  return view('website.docs',['datas' => $data]);
+
+}
 
       
       public function story() {
@@ -85,7 +105,7 @@ class WebsiteController extends Controller {
           return view('website.contact');
       
       }
-      
+
       public function solutions_cbg() {
         return view('website.sol-cbg');
     }
