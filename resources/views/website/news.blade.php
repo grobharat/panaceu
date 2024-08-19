@@ -20,36 +20,22 @@
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Email</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Link</th>
                 </tr>
             </thead>
             <tbody>
+                @foreach ($datas as $data )
                 <tr>
-                    <td>1</td>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>john.doe@example.com</td>
+                    <td>{{$data['sno']}}</td>
+                    <td>{{$data['title']}}</td>
+                    <td>{{$data['description']}}</td>
+                    <td><a href="{{$data['link']}}"><i class="fa fa-eye"></i></a></td>
                 </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Jane</td>
-                    <td>Smith</td>
-                    <td>jane.smith@example.com</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Mark</td>
-                    <td>Johnson</td>
-                    <td>mark.johnson@example.com</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Emily</td>
-                    <td>Jones</td>
-                    <td>emily.jones@example.com</td>
-                </tr>
+                
+                @endforeach
+              
             </tbody>
         </table>
     </div>
