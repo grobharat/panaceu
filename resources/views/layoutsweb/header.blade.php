@@ -193,14 +193,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-mega-menu"><a href="portfolio-grid-3-columns-no-space.html" class="sf-with-ul-pre"><i class="fa fa-globe"></i>Solutions</a>
+                                <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-mega-menu"><a href="#" class="sf-with-ul-pre"><i class="fa fa-globe"></i>Solutions</a>
                                     <div class="sf-mega">
                                         <ul class="sub-menu">
-                                            <li class="menu-item menu-item-has-children" data-column="four columns" data-size="1/3"><a href="portfolio-grid-3-columns.html" class="sf-with-ul-pre">Compressed Bio Gas (CBG)</a>
+                                            <li class="menu-item menu-item-has-children" data-column="four columns" data-size="1/3"><a href="{{url('solutions-cbg')}}" class="sf-with-ul-pre">Compressed Bio Gas (CBG)</a>
                                                 <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">CBG Plant Design & Construction</a></li>
-                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">CBG Plant Consultancy</a></li>
-                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">CBG Utilization and Applications</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg-epc')}}">CBG Plant Design & Construction</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg-consultancy')}}">CBG Plant Consultancy</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg-usage')}}">CBG Utilization and Applications</a></li>
                                                     <li class="menu-item"><a href="{{url('solutions-cbg')}}">Waste to Energy Solutions</a></li>
                                                     <li class="menu-item"><a href="{{url('solutions-cbg')}}">Government Policies & Incentives</a></li>
                                                     <li class="menu-item"><a href="{{url('solutions-cbg')}}">Carbon Footprint Reduction</a></li>
@@ -242,7 +242,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                            <a href="{{url('contact')}}" class="greennature-donate-button "><span class="greennature-button-overlay"></span><span class="greennature-button-donate-text">Cotact</span></a>
+                            <a href="{{url('contact')}}" class="greennature-donate-button "><span class="greennature-button-overlay"></span><span class="greennature-button-donate-text">Contact</span></a>
 
                         </nav>
                         <div class="greennature-navigation-gimmick" id="greennature-navigation-gimmick"></div>
