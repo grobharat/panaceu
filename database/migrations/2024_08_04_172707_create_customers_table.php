@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('customers', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained('users')->onDelete('cascade');        
+            $table->string('user_id')->nullable();       
             $table->string('relationship_manager_id')->nullable();
             $table->unsignedBigInteger('status')->default(0);
             $table->timestamps();
