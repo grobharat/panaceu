@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
             $table->foreignId('tehsil_id')->constrained('tehsils')->onDelete('cascade');
-            $table->foreignId('customer_id')->constrained('cutomers')->onDelete('cascade');
+            $table->foreignId('customer_id')->constrained('customers')->onDelete('cascade');
             $table->integer('status')->default(0);
             $table->timestamps();
         });
