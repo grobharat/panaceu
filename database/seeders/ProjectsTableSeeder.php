@@ -60,13 +60,6 @@ class ProjectsTableSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'tehsil_id' => 8,
-                'customer_id' => 8,
-                'status' => 1,
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-            [
                 'tehsil_id' => 9,
                 'customer_id' => 9,
                 'status' => 1,
