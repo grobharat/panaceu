@@ -82,14 +82,6 @@ class ProjectDetailsTableSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-            [
-                'parameter_id' => 10,
-                'parameter_value' => 'Value 10',
-                'project_id' => 10,
-                'status' => 1,
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
         ]);
     }
 }
