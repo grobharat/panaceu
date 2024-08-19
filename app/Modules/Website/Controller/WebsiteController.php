@@ -93,9 +93,13 @@ class WebsiteController extends Controller {
       
       }
       public function projects() {
-        //  $users = $this->websiteService->getAll();
-        //  return view('website.index', compact('users'));
-          return view('website.projects');
+        $jsonPath = 'data/projects.json';
+        if (!Storage::exists($jsonPath)) {
+             abort(404, 'Documents data not found.');
+         }
+         $jsonContent = Storage::get($jsonPath);
+         $data = json_decode($jsonContent, true);
+          return view('website.projects',['datas'=>$data]);
       
       }
       public function services() {
