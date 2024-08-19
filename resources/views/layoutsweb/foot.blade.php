@@ -4,7 +4,7 @@
                     <div id="text-5" class="widget widget_text greennature-item greennature-widget">
                         <div class="textwidget">
                             <p><img src="images/logo.png" style="width: 170px;" alt="" /></p>
-                            <p>Panaceu: Leading the Charge in Green Energy</p>
+                            <p>Panaceu is a leading consultancy and EPC company, led by IIT technocrats, specializing in the development of renewable energy projects (CBG, Hydrogen, Solar, Wind, Hydro Power).</p>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,13 @@
 
                             <span class="clear"></span><span class="greennature-space" style="margin-top: 10px; display: block;"></span>
 
-                            <i class="greennature-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> info@panaceu.com</div>
+                            <i class="greennature-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> info@panaceu.com<span class="clear"></span>
+                            <span class="greennature-space" style="margin-top: 10px; display: block;"></span>
+
+                            <i class="greennature-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> psplcbg@gmail.com</div>
+    
+                        </div>
+
                     </div>
                 </div>
                 <div class="footer-column three columns" id="footer-widget-3">
@@ -37,9 +43,9 @@
                                     <a href="#"><img src="upload/shutterstock_294481373-150x150.jpg" alt="" width="150" height="150" /></a>
                                 </div>
                                 <div class="recent-post-widget-content">
-                                    <div class="recent-post-widget-title"><a href="#">Sem Porta Mollis Parturi</a></div>
+                                    <div class="recent-post-widget-title"><a href="#">Towards a Greener Future</a></div>
                                     <div class="recent-post-widget-info">
-                                        <div class="blog-info blog-date greennature-skin-info"><i class="fa fa-clock-o"></i><a href="#">21 Mar 2014</a></div>
+                                        <div class="blog-info blog-date greennature-skin-info"><i class="fa fa-clock-o"></i><a href="#">24 Mar 2024</a></div>
                                         <div class="clear"></div>
                                     </div>
                                 </div>
@@ -50,9 +56,9 @@
                                     <a href="#"><img src="upload/shutterstock_181393724-150x150.jpg" alt="" width="150" height="150" /></a>
                                 </div>
                                 <div class="recent-post-widget-content">
-                                    <div class="recent-post-widget-title"><a href="#">Nullam Lorem Mattis Purus</a></div>
+                                    <div class="recent-post-widget-title"><a href="#">The Role of Biomass in Renewable Energy</a></div>
                                     <div class="recent-post-widget-info">
-                                        <div class="blog-info blog-date greennature-skin-info"><i class="fa fa-clock-o"></i><a href="#">21 Mar 2014</a></div>
+                                        <div class="blog-info blog-date greennature-skin-info"><i class="fa fa-clock-o"></i><a href="#">15 April 2024</a></div>
                                         <div class="clear"></div>
                                     </div>
                                 </div>
@@ -68,22 +74,22 @@
                         <div class="clear"></div>
                         <div class="greennature-recent-port2-widget">
                             <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="upload/shutterstock_161515241-150x150.jpg" alt="" width="150" height="150" /></a>
+                                <a href="#"><img src="upload/recent-work-1.jpg" alt="" width="150" height="150" /></a>
                             </div>
                             <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="upload/shutterstock_133689230-150x150.jpg" alt="" width="150" height="150" /></a>
+                                <a href="#"><img src="upload/recent-work-2.jpg" alt="" width="150" height="150" /></a>
                             </div>
                             <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="upload/shutterstock_53600221-150x150.jpg" alt="" width="150" height="150" /></a>
+                                <a href="#"><img src="upload/recent-work-3.jpg" alt="" width="150" height="150" /></a>
                             </div>
                             <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="upload/shutterstock_124871620-150x150.jpg" alt="" width="150" height="150" /></a>
+                                <a href="#"><img src="upload/recent-work-4.jpg" alt="" width="150" height="150" /></a>
                             </div>
                             <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="upload/shutterstock_281995004-150x150.jpg" alt="" width="150" height="150" /></a>
+                                <a href="#"><img src="upload/recent-work-5.jpg" alt="" width="150" height="150" /></a>
                             </div>
                             <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="upload/shutterstock_256181956-150x150.jpg" alt="" width="150" height="150" /></a>
+                                <a href="#"><img src="upload/recent-work-6.jpg" alt="" width="150" height="150" /></a>
                             </div>
                             <div class="clear"></div>
                         </div>
@@ -98,7 +104,7 @@
                         <a href="#"><i class="greennature-icon fa fa-facebook" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-twitter" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-dribbble" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-pinterest" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-google-plus" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-instagram" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
                     </div>
                     <div class="copyright-right">
-                       <a target="_blank" href="https://www.panaceu.com"></a> PANACEU</div>
+                       <a target="_blank" href="https://www.panaceu.com"></a> PANACEU SYSTEMS PVT. LTD.</div>
                     <div class="clear"></div>
                 </div>
             </div>

@@ -74,16 +74,30 @@ class WebsiteController extends Controller {
       
       }
       public function services() {
-        //  $users = $this->websiteService->getAll();
-        //  return view('website.index', compact('users'));
           return view('website.services');
       
       }
       public function careers() {
-        //  $users = $this->websiteService->getAll();
-        //  return view('website.index', compact('users'));
           return view('website.careers');
       
+      }
+      public function contact() {
+          return view('website.contact');
+      
+      }
+      
+      public function solutions_cbg() {
+        return view('website.sol-cbg');
+    }
+
+      public function solutions_cbg_epc() {
+          return view('website.sol-cbg-epc');
+      }
+      public function solutions_cbg_consultancy() {
+          return view('website.sol-cbg-consultancy');
+      }
+      public function solutions_cbg_usage() {
+          return view('website.sol-cbg-usage');
       }
 
 

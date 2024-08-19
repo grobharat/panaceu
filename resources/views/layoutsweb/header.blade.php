@@ -4,7 +4,7 @@
                 <div class="top-navigation-container container">
                     <div class="top-navigation-left">
                         <div class="top-navigation-left-text">
-                            Phone : +91-88084-88084, +91-88082-88082      Email : info@panaceu.com </div>
+                            Phone : +91-88084-88084, +91-88084-88082      Email : info@panaceu.com, psplcbg@gmail.com </div>
                     </div>
                     <div class="top-navigation-right">
                         <div class="top-social-wrapper">
@@ -242,7 +242,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                            <a class="greennature-donate-button greennature-lb-payment"><span class="greennature-button-overlay"></span><span class="greennature-button-donate-text">Connect</span></a>
+                            <a href="{{url('contact')}}" class="greennature-donate-button "><span class="greennature-button-overlay"></span><span class="greennature-button-donate-text">Cotact</span></a>
 
                         </nav>
                         <div class="greennature-navigation-gimmick" id="greennature-navigation-gimmick"></div>

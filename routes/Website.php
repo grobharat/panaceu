@@ -12,3 +12,9 @@ Route::get('/news-and-updates', [WebsiteController::class,'news']);
 Route::get('/projects', [WebsiteController::class,'projects']);
 Route::get('/services', [WebsiteController::class,'services']);
 Route::get('/careers', [WebsiteController::class,'careers']);
+Route::get('/contact', [WebsiteController::class,'contact']);
+
+Route::get('/solutions-cbg', [WebsiteController::class,'solutions_cbg']);
+Route::get('/solutions-cbg-epc', [WebsiteController::class,'solutions_cbg_epc']);
+Route::get('/solutions-cbg-consultancy', [WebsiteController::class,'solutions_cbg_consultancy']);
+Route::get('/solutions-cbg-usage', [WebsiteController::class,'solutions_cbg_usage']);
