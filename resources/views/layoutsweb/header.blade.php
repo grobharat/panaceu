@@ -207,7 +207,7 @@
                                                     <!-- <li class="menu-item"><a href="{{url('solutions-cbg')}}">Case Studies</a></li> -->
                                                 </ul>
                                             </li>
-                                            <li class="menu-item menu-item-has-children" data-column="four columns" data-size="1/3"><a href="portfolio-modern-3-columns-with-filter.html" class="sf-with-ul-pre">Smart Energy Systems</a>
+                                            <li class="menu-item menu-item-has-children" data-column="four columns" data-size="1/3"><a href="#" class="sf-with-ul-pre">Smart Energy Systems</a>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item"><a href="#">Smart Grid Technology Overview</a></li>
                                                     <li class="menu-item"><a href="#">Smart Metering & Data Analytics</a></li>
