@@ -9,7 +9,7 @@
 @section('content')
     <form class="form-signin" action="{{ route('register') }}" method="POST" id="registerForm">
         @csrf
-        <a href="{{url('/')}}"><img class="mb-4" src="{{ url('logo.png') }}" alt=""  height="72"></a>
+        <a href="{{url('/home')}}"><img class="mb-4" src="{{ url('logo.png') }}" alt=""  height="72"></a>
         <h1 class="h3 mb-3 font-weight-normal">Register</h1>
 
         <div style="margin-bottom: 10px;">

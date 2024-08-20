@@ -8,7 +8,7 @@
 @section('content')
 <form class="form-signin" method="POST" action="{{url('/login')}}">
   @csrf
-      <a href="{{url('/')}}"><img class="mb-4" src="{{url('logo.png')}}" alt=""  height="72"></a>
+      <a href="{{url('/home')}}"><img class="mb-4" src="{{url('logo.png')}}" alt=""  height="72"></a>
       <h1 class="h3 mb-3 font-weight-normal">Login</h1>
       <div style="margin-bottom: 10px;">
       <label for="inputEmail" class="sr-only">Email address</label>

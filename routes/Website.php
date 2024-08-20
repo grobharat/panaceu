@@ -5,6 +5,7 @@ use App\Modules\Website\Controller\WebsiteController;
 use App\Modules\Blog\Controller\BlogController;
 
 Route::resource('/', WebsiteController::class);
+Route::get('/home', [WebsiteController::class,'home']);
 Route::get('/about', [WebsiteController::class,'about']);
 Route::get('/vision', [WebsiteController::class,'vision']);
 Route::get('/story', [WebsiteController::class,'story']);

@@ -1,4 +1,4 @@
-<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1.0" />
 
     <title>PANACEU | An EPC and Consultancy Company</title>

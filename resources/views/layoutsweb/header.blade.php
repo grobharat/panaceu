@@ -55,7 +55,7 @@
                         <div class="greennature-responsive-navigation dl-menuwrapper" id="greennature-responsive-navigation">
                             <button class="dl-trigger">Open Menu</button>
                             <ul id="menu-main-menu" class="dl-menu greennature-main-mobile-menu">
-                                <li class="menu-item menu-item-home menu-item-has-children current-menu-item page_item page-item-5680 current_page_item"><a href="{{url('/')}}" aria-current="page">Home</a>
+                                <li class="menu-item menu-item-home menu-item-has-children current-menu-item page_item page-item-5680 current_page_item"><a href="{{url('/home')}}" aria-current="page">Home</a>
                                 <ul class="dl-submenu">
                                         <li class="menu-item"><a href="{{url('about')}}">Overview of Panaceu</a></li>
                                         <li class="menu-item"><a href="{{url('news-and-updates')}}">Latest News and Updates</a></li>
@@ -131,7 +131,7 @@
                     <div class="greennature-navigation-wrapper">
                         <nav class="greennature-navigation" id="greennature-main-navigation">
                             <ul id="menu-main-menu-1" class="sf-menu greennature-main-menu">
-                                <li class="menu-item menu-item-home menu-item-has-children current-menu-item greennature-normal-menu"><a href="{{url('/')}}"><i class="fa fa-home"></i>Home</a>
+                                <li class="menu-item menu-item-home menu-item-has-children current-menu-item greennature-normal-menu"><a href="{{url('/home')}}"><i class="fa fa-home"></i>Home</a>
                                 <ul class="sub-menu">
                                         <li class="menu-item"><a href="{{url('about')}}">Overview of Panaceu</a></li>
                                         <li class="menu-item"><a href="{{url('news-and-updates')}}">Latest News and Updates</a></li>

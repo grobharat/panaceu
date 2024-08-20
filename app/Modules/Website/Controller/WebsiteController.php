@@ -20,6 +20,12 @@ class WebsiteController extends Controller {
         return view('website.index');
     
     }
+    public function home() {
+        //  $users = $this->websiteService->getAll();
+        //  return view('website.index', compact('users'));
+          return view('website.home');
+      
+      }
 
     public function vision() {
         //  $users = $this->websiteService->getAll();

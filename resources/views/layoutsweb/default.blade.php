@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+   @yield('title')
    @include('layoutsweb.head')
    @yield('customhead')
 </head>
