@@ -55,86 +55,53 @@
                         <div class="greennature-responsive-navigation dl-menuwrapper" id="greennature-responsive-navigation">
                             <button class="dl-trigger">Open Menu</button>
                             <ul id="menu-main-menu" class="dl-menu greennature-main-mobile-menu">
-                                <li class="menu-item menu-item-home menu-item-has-children current-menu-item page_item page-item-5680 current_page_item"><a href="index-2.html" aria-current="page">Home</a>
+                                <li class="menu-item menu-item-home menu-item-has-children current-menu-item page_item page-item-5680 current_page_item"><a href="{{url('/')}}" aria-current="page">Home</a>
                                 <ul class="dl-submenu">
-                                        <li class="menu-item"><a href="act-now.html">Act Now</a></li>
-                                        <li class="menu-item"><a href="about-1.html">About Us 1</a></li>
-                                        <li class="menu-item"><a href="about-2.html">About Us 2</a></li>
-                                        <li class="menu-item"><a href="service.html">Service</a></li>
-                                        <li class="menu-item"><a href="personnel-2.html">Personnel</a></li>
-                                        <li class="menu-item"><a href="qa.html">Q&#038;A</a></li>
-                                        <li class="menu-item"><a href="contact-page.html">Contact Page 1</a></li>
-                                        <li class="menu-item"><a href="contact-page-2.html">Contact Page 2</a></li>
-                                        <li class="menu-item menu-item-12"><a href="404error.html">404 Page</a></li>
-                                        <li class="menu-item"><a href="testimonial.html">Testimonial</a></li>
-                                        <li class="menu-item menu-item-has-children"><a href="gallery-3-columns-without-caption.html">Gallery</a>
-                                            <ul class="dl-submenu">
-                                                <li class="menu-item"><a href="gallery-2-columns-without-caption.html">Gallery 2 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-2-columns-with-caption.html">Gallery 2 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-3-columns-without-caption.html">Gallery 3 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-3-columns-with-caption.html">Gallery 3 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-4-columns-without-caption.html">Gallery 4 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-4-columns-with-caption.html">Gallery 4 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-5-columns-without-caption.html">Gallery 5 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-5-columns-with-caption.html">Gallery 5 Columns With Caption</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                        <li class="menu-item"><a href="{{url('about')}}">Overview of Panaceu</a></li>
+                                        <li class="menu-item"><a href="{{url('news-and-updates')}}">Latest News and Updates</a></li>
+                                        <li class="menu-item"><a href="{{url('projects')}}">Featured Projects</a></li>
+                                        <li class="menu-item"><a href="{{url('documents')}}">Documents</a></li>
+                                </ul>
                                  </li>
-                                <li class="menu-item menu-item-has-children menu-item-15"><a href="#">Pages</a>
+                                <li class="menu-item menu-item-has-children menu-item-15"><a href="#">About Us</a>
                                     <ul class="dl-submenu">
-                                        <li class="menu-item"><a href="act-now.html">Act Now</a></li>
-                                        <li class="menu-item"><a href="about-1.html">About Us 1</a></li>
-                                        <li class="menu-item"><a href="about-2.html">About Us 2</a></li>
-                                        <li class="menu-item"><a href="service.html">Service</a></li>
-                                        <li class="menu-item"><a href="personnel-2.html">Personnel</a></li>
-                                        <li class="menu-item"><a href="qa.html">Q&#038;A</a></li>
-                                        <li class="menu-item"><a href="contact-page.html">Contact Page 1</a></li>
-                                        <li class="menu-item"><a href="contact-page-2.html">Contact Page 2</a></li>
-                                        <li class="menu-item menu-item-12"><a href="404error.html">404 Page</a></li>
-                                        <li class="menu-item"><a href="testimonial.html">Testimonial</a></li>
-                                        <li class="menu-item menu-item-has-children"><a href="gallery-3-columns-without-caption.html">Gallery</a>
+                                    <li class="menu-item"><a href="{{url('vision')}}">Company Mission and Vision</a></li>
+                                        <li class="menu-item"><a href="{{url('story')}}">Our Story</a></li>
+                                        <li class="menu-item"><a href="{{url('team')}}">Leadership Team</a></li>
+                                        <!-- <li class="menu-item"><a href="{{url('')}}">Sustainability Commitment</a></li> -->
+                                        <li class="menu-item"><a href="{{url('careers')}}">Careers</a></li>
+                                         <!-- <li class="menu-item menu-item-has-children"><a href="gallery-3-columns-without-caption.html" class="sf-with-ul-pre">Gallery</a> -->
+                                            
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-has-children"><a href="#">Solutions</a>
+                                    <ul class="dl-submenu">
+                                        <li class="menu-item menu-item-has-children"><a href="{{url('solutions-cbg')}}">Compressed Bio Gas (CBG)</a>
                                             <ul class="dl-submenu">
-                                                <li class="menu-item"><a href="gallery-2-columns-without-caption.html">Gallery 2 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-2-columns-with-caption.html">Gallery 2 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-3-columns-without-caption.html">Gallery 3 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-3-columns-with-caption.html">Gallery 3 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-4-columns-without-caption.html">Gallery 4 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-4-columns-with-caption.html">Gallery 4 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-5-columns-without-caption.html">Gallery 5 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-5-columns-with-caption.html">Gallery 5 Columns With Caption</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg-epc')}}">CBG Plant Design & Construction</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg-consultancy')}}">CBG Plant Consultancy</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg-usage')}}">CBG Utilization and Applications</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">Waste to Energy Solutions</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">Government Policies & Incentives</a></li>
+                                                    <li class="menu-item"><a href="{{url('solutions-cbg')}}">Carbon Footprint Reduction</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a href="#">Smart Energy Systems</a>
+                                            <ul class="dl-submenu">
+                                            <li class="menu-item"><a href="#">Smart Grid Technology Overview</a></li>
+                                                    <li class="menu-item"><a href="#">Smart Metering & Data Analytics</a></li>
+                                                    <li class="menu-item"><a href="#">Building Energy Management Systems (BEMS)</a></li>
+                                                    <li class="menu-item"><a href="#">Industrial Energy Efficiency Solutions</a></li>
+                                                    <li class="menu-item"><a href="#">Microgrids & Local Energy Systems</a></li>
+                                                    <li class="menu-item"><a href="#">DER Integration & Optimization</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="portfolio-grid-3-columns-no-space.html">Portfolio</a>
-                                    <ul class="dl-submenu">
-                                        <li class="menu-item menu-item-has-children"><a href="portfolio-grid-3-columns.html">Portfolio Classic</a>
-                                            <ul class="dl-submenu">
-                                                <li class="menu-item"><a href="portfolio-grid-1-column.html">Portfolio Grid 1 Column (Both Sidebar)</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-2-columns.html">Portfolio Grid 2 Columns (Right Sidebar)</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-3-columns.html">Portfolio Grid 3 Columns</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-4-columns.html">Portfolio Grid 4 Columns</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-2-columns-no-space.html">Portfolio Grid 2 Columns, No Space</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-3-columns-no-space.html">Portfolio Grid 3 Columns, No Space</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-4-columns-no-space.html">Portfolio Grid 4 Columns, No Space</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children"><a href="portfolio-modern-3-columns-with-filter.html">Portfolio With Filter</a>
-                                            <ul class="dl-submenu">
-                                                <li class="menu-item"><a href="portfolio-grid-1-columns-with-filter.html">Portfolio Grid 1 Col With Filter</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-2-columns-with-filter.html">Portfolio Grid 2 Cols With Filter</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-3-columns-with-filter.html">Portfolio Grid 3 Cols With Filter</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-4-columns-with-filter.html">Portfolio Grid 4 Cols With Filter</a></li>
-                                                <li class="menu-item"><a href="portfolio-modern-3-columns-with-filter.html">Portfolio Modern 3 Cols With Filter</a></li>
-                                                <li class="menu-item"><a href="portfolio-modern-4-columns-with-filter.html">Portfolio Modern 4 Cols With Filter</a></li>
-                                                <li class="menu-item"><a href="singleprod.html">Single Portfolio</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children"><a href="blog-full-with-right-sidebar.html">Blog</a>
-                                    <ul class="dl-submenu">
+                                <li class="menu-item menu-item-has-children"><a href="{{url('blog')}}">Blog</a>
+                                    <!-- <ul class="dl-submenu">
                                     	<li class="menu-item"><a href="blog-full-with-right-sidebar.html">Blog Full</a></li>
 
                                         <li ss="menu-item menu-item-has-children menu-item-"><a href="#">Blog Column</a>
@@ -153,7 +120,7 @@
                                             </ul>
                                         </li>
 
-                                    </ul>
+                                    </ul> -->
                                 </li>
        
                             </ul>
