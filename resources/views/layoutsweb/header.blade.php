@@ -1,3 +1,15 @@
+<!-- Start of whatsapp -->
+<?php
+$txt_1 = 'Hello,'."%0A";
+$txt_2 = "I'm interested in establishing a CBG plant and would like to discuss potential opportunities with Panaceu."."%0D%0A";
+$txt_3 = 'Please share more details.'."%0A";
+$txt_3 .= 'Thanks'."%0A";
+$msg= $txt_1.$txt_2.$txt_3."%0A";
+?>
+<a href="https://api.whatsapp.com/send?phone=918953551535&text=<?php echo $msg ?>" class="bk-whatsapp-float" target="_blank">
+<i class="fa fa-whatsapp bk-whatsapp-my-float"></i>
+</a>
+<!-- ./end of whatsapp -->
 <header class="greennature-header-wrapper header-style-5-wrapper greennature-header-with-top-bar">
             <!-- top navigation -->
             <div class="top-navigation-wrapper">
@@ -9,7 +21,7 @@
                     <div class="top-navigation-right">
                         <div class="top-social-wrapper">
                             <div class="social-icon">
-                                <a href="#" target="_blank">
+                                <a href="https://www.facebook.com/panaceusystems/" target="_blank">
                                     <i class="fa fa-facebook"></i></a>
                             </div>
                             <div class="social-icon">

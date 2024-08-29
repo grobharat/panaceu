@@ -76,6 +76,13 @@
             width: 200px;
             animation: popIn 2s ease-in-out forwards;
         }
+        .tagline2 {
+
+            font-size: 1.2em;
+            color:green;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
 
         .tagline {
             margin-top: 2px;
@@ -206,6 +213,7 @@
 
     <div class="container">
         <!-- Logo -->
+        <!-- <div class="tagline2">Welcome to Green World</div> -->
         <img src="logo.png" alt="Panaceu Logo">
 
         <!-- Tagline -->
