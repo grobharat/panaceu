@@ -251,8 +251,8 @@
                                         by embracing innovative solutions and responsible practices. Be a part of the
                                         movement to make a lasting impact on our world—because every step toward change
                                         counts.</p>
-                                </div><a class="stunning-item-button greennature-button large greennature-lb-payment"
-                                    href="#" style="background-color: #fec428; color: #ffffff;">Get In Touch!</a>
+                                </div><a class="stunning-item-button greennature-button large"
+                                    href="{{url('contact')}}" style="background-color: #fec428; color: #ffffff;">Get In Touch!</a>
                             </div>
                         </div>
                         <div class="clear"></div>
