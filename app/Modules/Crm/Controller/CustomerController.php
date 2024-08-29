@@ -14,8 +14,11 @@ class CustomerController extends Controller {
     }
 
     public function index() {
-        $data = $this->crmService->getAllCustomer();
-        return view('crm.customer', compact('data'));
+        $headers=$this->crmService->getHeaders("customer");
+        $data = $this->crmService->getCustomerWithDetails();
+
+       // dd($data);
+        return view('crm.customer', ['datas'=>$data,'headers'=>$headers]);
     }
 
     public function create() {

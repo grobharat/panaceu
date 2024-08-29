@@ -127,4 +127,41 @@ class CrmService {
     public function getAllCustomer() {
         return $this->crmRepository->getAllCustomer();
     }
+    public function getHeaders($type) {
+        return $this->crmRepository->getHeaders($type);
+    }
+
+    public function getAllCustomerDetails() {
+        return $this->crmRepository->getAllCustomerDetails();
+    }
+
+
+
+    public function getCustomerWithDetails() {
+        $response=[];
+        $cust=[];
+        $customers=$this->getAllCustomer();
+        $parameters=$this->getHeaders("customer");
+        $customerDetails=$this->getAllCustomerDetails();
+
+       foreach($customers as $customer){
+            $cust["id"]=$customer->customerId;
+            $customerId=$customer->customerId;
+            foreach($parameters as $parameter){
+                $parameterId= $parameter->parameterId;
+                $value=$customerDetails->filter(function ($item) use ($parameterId, $customerId) {
+                    return $item['parameterId'] == $parameterId && $item['customerId'] == $customerId;
+                })->pluck('parameterValue');
+                $cust[$parameter->parameterName]=!empty($value)?$value:"";
+
+               // $cust[$parameter->parameterName]=!empty($value)?$value:"";
+            }
+           array_push($response,$cust);
+
+        }
+        return $response;
+        
+
+    }
+
 }

@@ -18,9 +18,9 @@ class Customer extends Model
 
     public function customerDetails()
     {
-        return $this->hasMany(CustomerDetail::class);
+        return $this->hasMany(CustomerDetail::class,'customer_id');
     }
-    
+
     public function tehsil()
     {
         return $this->belongsTo(Tehsil::class, 'tehsil_id');

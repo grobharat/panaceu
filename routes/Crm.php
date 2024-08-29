@@ -1,7 +1,9 @@
 <?php
 
 
+use App\Models\FollowUp;
 use App\Modules\Crm\Controller\CustomerController;
+use App\Modules\Crm\Controller\FollowupController;
 use Illuminate\Support\Facades\Route;
 use App\Modules\Crm\Controller\CrmController;
 use App\Modules\Crm\Controller\CountryController;
@@ -33,6 +35,7 @@ Route::middleware(['role:admin'])->group(function () {
         Route::post('/tehsil', [TehsilController::class,'store']);
         Route::get('/leads', [CustomerController::class,'index']);
         Route::post('/leads', [CustomerController::class,'store']);
+        Route::get('/followups', [FollowupController::class,'index']);
         
     });
 });

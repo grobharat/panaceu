@@ -4,10 +4,12 @@ namespace App\Modules\Crm\Repository;
 
 use App\Models\Country;
 use App\Models\Customer;
+use App\Models\CustomerDetail;
 use App\Models\State;
 use App\Models\District;
 use App\Models\Tehsil;
 use App\Models\User;
+use App\Models\Parameter;
 use Illuminate\Support\Facades\DB;
 
 class CrmRepository {
@@ -139,16 +141,39 @@ class CrmRepository {
     public function getAllCustomer() {
         $selectField=[
             'customers.id as customerId',
-            'parameters.name as key',
-            'customer_details.parameter_value as value'
         ];
         $queryBuilder = Customer::query();
-        $queryBuilder->select($selectField)
-        ->join('customer_details', 'customer_details.customer_id', '=', 'customers.id')
-        ->join('parameters', 'parameters.id', '=', 'customer_details.parameter_id')
-        ->get();
+        $queryBuilder->select($selectField);
+        $queryBuilder->where("status","=",1);
         return $queryBuilder->get();
+}
 
-       // return  Customer::with('customer_details')->get();
+public function getAllCustomerDetails() {
+    $selectField=[
+        'parameter_id as parameterId',
+        'customer_id as customerId',
+        'parameter_value as parameterValue',
+    ];
+    $queryBuilder = CustomerDetail::query();
+    $queryBuilder->select($selectField);
+    $queryBuilder->where("status","=",1);
+    return $queryBuilder->get();
+}
+    public function getHeaders($type) {
+        $selectField=[
+            'parameters.id as parameterId',
+            'parameters.name as parameterName',
+        ];
+        $queryBuilder = Parameter::query();
+        $queryBuilder->select($selectField);
+        // ->join('customer_details', 'customer_details.customer_id', '=', 'customers.id')
+        // ->join('parameters', 'parameters.id', '=', 'customer_details.parameter_id')
+        $queryBuilder->where("type","=",$type);
+        $queryBuilder->where("status","=",1);
+        $queryBuilder->get();
+        return $queryBuilder->get();
     }
+
+
+    
 }

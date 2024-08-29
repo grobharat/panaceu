@@ -2,64 +2,66 @@
 
 @section('content')
 <main>
-                    <div class="container-fluid px-4">
-                        <h1 class="mt-4">Leads</h1>
-                        <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active">List of Leads</li>
-                        </ol>
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-table me-1"></i>
-                                Leads
-                            </div>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Leads</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item active">List of Leads</li>
+        </ol>
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                Leads
+            </div>
 
 
-                            <div class="card-body">
-                                <table id="datatablesSimple">
-                                    
-                                <thead>
-                                        <tr>
-                                            <th>Id</th>
-                                            <th>Name</th>
-                                            <th>District</th>
-                                            <th>State</th>
-                                            <th>Country</th>
-                                            <th>Action</th>
+            <div class="card-body">
+                <table id="datatablesSimple">
 
-                                        </tr>
-                                    </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Id</th>
-                                            <th>Name</th>
-                                            <th>District</th>
-                                            <th>State</th>
-                                            <th>Country</th>
-                                            <th>Action</th>
+                    <thead>
+                        <tr>
+                        <th>Id</th>
+                            @foreach($headers as $key => $value)
+                                <th>{{ $value->parameterName }}</th>
+                            @endforeach
+                            <th>Action</th>
+                        </tr>
 
-                                        </tr>
-                                    </tfoot>
-                                    <tbody>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                        <th>Id</th>
+                        @foreach($headers as $key => $value)
+                                <th>{{ $value->parameterName }}</th>
+                            @endforeach
+                            <th>Action</th>
 
-                                    @foreach($data as $key=>$value)
-                                      <tr>
-                    <td>{{ $value->id }}</td>
-                    <td>{{ $value->key }}</td>
-                    <td>{{ $value->value }}</td>
-                                            
-                                             <td> 
-                                            <a href="#"><i class="fas fa-eye"></i></a>||
-                                            <a href="#"><i class="fas fa-edit"></i></a>||
-                                            <a href="#"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                            </tr>
-                                            @endforeach
-                                        
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+
+
+                        @foreach($datas as $key=> $value)
+                            <tr>
+                            <td>{{ $value['id'] }}</td>
+                            @foreach($headers as $index)
+                            
+                                <td>{{ $value[$index->parameterName] }}</td>
+                                @endforeach
+                             
+
+                                <td>
+                                    <a href="#"><i class="fas fa-eye"></i></a>||
+                                    <a href="#"><i class="fas fa-edit"></i></a>||
+                                    <a href="#"><i class="fas fa-trash-alt"></i></a>
+                                </td>
+                            </tr>
+                        @endforeach
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </main>
-                
+
 @endsection
