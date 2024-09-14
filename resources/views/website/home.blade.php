@@ -1,6 +1,6 @@
 @extends('layoutsweb.default')
 @section('title')
-<title>Panaceu - Leading Green Energy Solutions & Compressed Bio Gas (CBG) Experts</title>
+<title>Panaceu | Leading Green Energy Solutions Provider| Compressed Bio Gas (CBG) Experts | Bio CNG Plant Manufacturer | IIT Technocrats</title>
 @endsection
 @section('customhead')
     <!-- Title Tag -->
@@ -10,13 +10,13 @@
     <meta name="description" content="Discover Panaceu's innovative green energy solutions, including Compressed Bio Gas (CBG), solar, wind, and biomass. Transforming waste into energy, we help achieve a sustainable future with cutting-edge renewable technologies.">
     
     <!-- Meta Keywords -->
-    <meta name="keywords" content="green energy, Compressed Bio Gas, CBG, renewable energy, waste to energy, sustainable energy, biogas, solar energy, wind energy, biomass, energy solutions, net-zero emissions, Panaceu">
+    <meta name="keywords" content="green energy, Compressed Bio Gas, CBG, renewable energy, waste to energy, sustainable energy, biogas, solar energy, wind energy, biomass, energy solutions, net-zero emissions, Panaceu, bio cng, bio cng plant, manufacturer, waste to wealth, biomass to energy">
     
     <!-- Meta Author -->
     <meta name="author" content="Panaceu">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Panaceu - Pioneers in Green Energy and CBG Solutions">
+    <meta property="og:title" content="Panaceu | Pioneers in Green Energy and CBG Solutions | Bio CNG plant manufacturer| Bio CNG| IITians in green energy">
     <meta property="og:description" content="Panaceu offers comprehensive renewable energy solutions, specializing in Compressed Bio Gas (CBG) and sustainable technologies to reduce carbon emissions and promote a greener future.">
     <meta property="og:image" content="https://www.panaceu.com/path-to-image.jpg">
     <meta property="og:url" content="https://www.panaceu.com">
