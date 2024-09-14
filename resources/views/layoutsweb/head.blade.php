@@ -1,7 +1,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1.0" />
 
-    <title>PANACEU | An EPC and Consultancy Company</title>
+    <title>PANACEU | A Green Energy Company | Bio CNG Plant Manufacturer | IIT Technocrats</title>
     <link rel="icon" type="image/x-icon" href="./favicon/favicon-16x16.png">
 
 
