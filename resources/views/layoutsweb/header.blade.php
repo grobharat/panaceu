@@ -16,7 +16,7 @@ $msg= $txt_1.$txt_2.$txt_3."%0A";
                 <div class="top-navigation-container container">
                     <div class="top-navigation-left">
                         <div class="top-navigation-left-text">
-                            Phone : +91-88084-88084, +91-88084-88082      Email : info@panaceu.com, psplcbg@gmail.com </div>
+                            Phone : +91-88084-88084, +91-88084-88082, +91-985-355-1535      Email : info@panaceu.com, psplcbg@gmail.com </div>
                     </div>
                     <div class="top-navigation-right">
                         <div class="top-social-wrapper">

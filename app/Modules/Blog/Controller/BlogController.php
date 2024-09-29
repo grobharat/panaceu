@@ -33,6 +33,10 @@ class BlogController extends Controller {
        // dd($datas);
         return view('blog.blog',["datas"=>$datas,"news"=>$news]);
     }
+    public function blog_direct($pagename){
+       // dd($pagename);
+        return view('blog.'.$pagename);
+    }
       
 
     public function create() {

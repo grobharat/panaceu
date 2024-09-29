@@ -26,3 +26,4 @@ Route::get('/solutions-cbg-usage', [WebsiteController::class,'solutions_cbg_usag
 
 //--------------Blog----------
 Route::get('/blog', [BlogController::class,'blog']);
+Route::get('/blog/{pagename}', [BlogController::class,'blog_direct']);
