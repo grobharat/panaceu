@@ -16,11 +16,11 @@
 
                             <span class="clear"></span><span class="greennature-space" style="margin-top: 10px; display: block;"></span>
 
-                            <i class="greennature-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> +91-88084-88084
+                            <i class="greennature-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> +91-955-977-2934
 
                             <span class="clear"></span><span class="greennature-space" style="margin-top: 10px; display: block;"></span>
 
-                            <i class="greennature-icon fa fa-mobile" style="vertical-align: middle; color: #fff; font-size: 20px; "></i> +91-88084-88082
+                            <i class="greennature-icon fa fa-mobile" style="vertical-align: middle; color: #fff; font-size: 20px; "></i> +91-9410-877-290
 
                             <span class="clear"></span><span class="greennature-space" style="margin-top: 10px; display: block;"></span>
 
