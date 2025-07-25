@@ -106,8 +106,8 @@
                     <div class="textwidget">
                         <h4>Panaceu Systems Private Limited</h4>
                         <p>Address: Khushnuma Complex, 7- Meera Bai Marg, Hazratganj, Lucknow, UP, India. PIN-226001.</p>
-                        <p><i class="greennature-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> +91-88084-88084</p>
-                        <p><i class="greennature-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> +91-88084-88082</p>
+                        <p><i class="greennature-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> +91-831-864-6055</p>
+                        <p><i class="greennature-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> +91-700-720-4616</p>
                         <p><i class="greennature-icon fa fa-envelope" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> info@panaceu.com</p>
                         <p><i class="greennature-icon fa fa-clock-o" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> Weekdays(Mon-Sat) 09:00-17:00</p>
                     </div>
@@ -153,8 +153,8 @@
                             <h4 class="box-with-icon-title">Contact By Phone</h4>
                             <div class="clear"></div>
                             <div class="box-with-icon-caption">
-                                <p>+91-88084-88084</p>
-                                <p>+91-88084-88082</p>
+                                <p>+91-831-864-6055</p>
+                                <p>+91-700-720-4616</p>
                             </div>
                         </div>
                     </div>
