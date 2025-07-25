@@ -16,11 +16,11 @@
 
                             <span class="clear"></span><span class="greennature-space" style="margin-top: 10px; display: block;"></span>
 
-                            <i class="greennature-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> +91-955-977-2934
+                            <i class="greennature-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> +91-831-864-6055
 
                             <span class="clear"></span><span class="greennature-space" style="margin-top: 10px; display: block;"></span>
 
-                            <i class="greennature-icon fa fa-mobile" style="vertical-align: middle; color: #fff; font-size: 20px; "></i> +91-9410-877-290
+                            <i class="greennature-icon fa fa-mobile" style="vertical-align: middle; color: #fff; font-size: 20px; "></i> +91-700-720-4616
 
                             <span class="clear"></span><span class="greennature-space" style="margin-top: 10px; display: block;"></span>
 
